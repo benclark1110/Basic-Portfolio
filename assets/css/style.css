@@ -1,0 +1,59 @@
+/*Common Header*/
+header{
+    font-family: 'Georgia';
+    width: 100%;
+    background: #ffffff;
+}
+
+header h1{
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: 0%;
+}
+header h2{
+    float: right;
+    color: #cccccc;
+}
+
+/*Common Footer*/
+footer{
+    background: #666666;
+    color: #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 440%;
+}
+
+/*Custom*/
+section h1{
+    color: #4aaaa5;
+}
+
+.clearfix{
+    overflow: auto;
+    width: 960px;
+    background: #ffffff;
+    padding: 20px;
+}
+
+p{
+    font-family: 'Arial';
+    color: #cccccc
+}
+
+section{
+    background: red;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    background-color:#cccccc;
+    border: 0px
+    }
