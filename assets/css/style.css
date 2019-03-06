@@ -118,3 +118,45 @@ input{
     height: 80px;
   }
 
+  /*Portfolio Specific*/
+#firstRow, #secondRow{
+    position: relative;
+}
+
+#bread, #burger, #city, #hangman, #beach{
+    float: left;
+    padding: 20px;
+}
+
+#portfolioMainContent{
+    clear: both;
+    width: 954px;
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    margin-top: 30px;
+    border: 3px solid #dddddd
+}
+
+#portfolioMainContent h3{
+    position: absolute;
+    text-align: center;
+    width: 240px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+#firstRow h3{
+    top: 140px;
+}
+
+#secondRow h3{
+    top: 375px;
+}
+
+#thirdRow h3{
+    top: 800px;
+}
+
